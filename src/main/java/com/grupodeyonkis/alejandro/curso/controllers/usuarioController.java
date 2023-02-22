@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 public class usuarioController {
-    @RequestMapping(value ="usuario")
+    @RequestMapping(value ="usuarios")
     public List <Usuario> getUsuario(){
         List <Usuario> usuarios = new ArrayList<>();
         Usuario usuario = new Usuario();
