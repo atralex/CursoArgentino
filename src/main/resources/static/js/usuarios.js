@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', event => {
         new simpleDatatables.DataTable(usuarios);
     }
     async function cargarUsuarios(){
-    fetch('usuario/1234')
+    fetch('usuario')
       .then(response => response.json())
       .then(usuarios => console.log(usuarios));
     }
