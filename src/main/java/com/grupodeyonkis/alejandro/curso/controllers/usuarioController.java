@@ -13,7 +13,7 @@ public class usuarioController {
         List <Usuario> usuarios = new ArrayList<>();
         Usuario usuario = new Usuario();
         usuario.setId(1234);
-        usuario.setNombre("Pedro");
+        usuario.setNombre("Manuel");
         usuario.setApellido("Picapiedras");
         usuario.setEmail("pedritopicapleitos@gmail.com");
         usuario.setPassword("surmano");
